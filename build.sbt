@@ -17,6 +17,8 @@ libraryDependencies ++= Seq(
   "org.scalikejdbc" %% "scalikejdbc-play-initializer" % "2.5.1"
 )
 
+scalikejdbcSettings
+
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.example.controllers._"
 
